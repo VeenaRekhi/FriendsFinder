@@ -1,0 +1,30 @@
+{
+  "name": "nodewebserver",
+  "version": "1.0.0",
+  "description": "A node web server search app",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeenaRekhi/FriendsFinder.git"
+  },
+  "keywords": [
+    "datingfriendswebsite"
+  ],
+  "author": "Veena Rekhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeenaRekhi/FriendsFinder/issues"
+  },
+  "homepage": "https://github.com/VeenaRekhi/FriendsFinder#readme"
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Friends Finder App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+  </div>
+</nav>
+
+ <div class="container">
+    <div class="row col-lg-12">
+      <h1></h1>
+      <h2><strong>Take the survey before joining firends!!</strong></h2>
+      <hr>
+     
+    </div>
+
+    <div class="row col-lg-12">
+      <div class="row col-lg-4 ">
+            <h2 class="title"><strong> About You! </strong></h2>
+              <div class="newFriend">
+                <img src="https://placehold.it/300x300?text=Image" alt="Image">
+                <div class="applicantImage">
+                  <h3 class="name">Name:</h3>
+                  <h3 class="phone-no">Phone No:</h3>
+                  <h3 class="email">Email:</h3>
+                  <h3 class="unique-id">Unique-ID:</h3>
+                </div>      
+              </div>
+      </div>
+    
+
+          <div class="row col-lg-8 col-lg-offset-1.5">    
+                  <h2 class="title"><strong>Fill out This Survey!</strong></h2>
+              
+              <div class="panel-body">
+                <form method="POST" role="form">
+                  <div class="form-group">
+                    <h3> Question-1 </h3>
+                    <h4> Your mind is always buzzing with unexplored ideas and plans.</h4>
+                  <div class="dropdown">
+                      <select id="dropDownList0" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select an Option<span></span>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Pass</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                      </select>
+                  </div>
+                  </div>
+
+                  <div class="form-group">
+                    <h3> Question-2 </h3>
+                    <h4> Generally speaking, you rely more on your experience than your imagination.
+                       </h4>
+                  <div class="dropdown">
+                      <select id="dropDownList1" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select an Option<span></span> 
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Pass</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                      </select>
+                  </div>
+                  </div>
+
+                  <div class="form-group">
+                    <h3> Question-3 </h3>
+                    <h4> You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+                  <div class="dropdown">
+                      <select id="dropDownList2" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select an Option<span></span>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Pass</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                      </select>
+                  </div>
+                  </div>
+
+                  <div class="form-group">
+                    <h3> Question-4 </h3>
+                    <h4> You rarely do something just out of sheer curiosity.</h4>
+                  <div class="dropdown">
+                      <select id="dropDownList3" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select an Option<span></span>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Pass</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                      </select>
+                  </div>
+                  </div>
+
+                  <div class="form-group">
+                    <h3> Question-5 </h3>
+                    <h4> People can rarely upset you.</h4>
+                  <div class="dropdown">
+                      <select id="dropDownList4" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select an Option<span></span>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Pass</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                      </select>
+                  </div>
+                  </div>
+
+                  <div class="form-group">
+                    <h3> Question-6 </h3>
+                    <h4> It is often difficult for you to relate to other people’s feelings.</h4>
+                  <div class="dropdown">
+                      <select id="dropDownList5" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select an Option<span></span>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Pass</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                      </select>
+                  </div>
+                  </div>
+
+                  <div class="form-group">
+                    <h3> Question-7 </h3>
+                    <h4> In a discussion, truth should be more important than people’s sensitivities.</h4>
+                  <div class="dropdown">
+                      <select id="dropDownList6" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select an Option<span></span>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Pass</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                      </select>
+                  </div>
+                  </div>
+
+                  <div class="form-group">
+                    <h3> Question-8 </h3>
+                    <h4> You rarely get carried away by fantasies and ideas.</h4>
+                  <div class="dropdown">
+                      <select id="dropDownList7" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select an Option<span></span>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Pass</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                      </select>
+                  </div>
+                  </div>
+
+                  <div class="form-group">
+                    <h3> Question-9 </h3>
+                    <h4> You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+                  <div class="dropdown">
+                      <select id="dropDownList8" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select an Option<span></span>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Pass</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                      </select>
+                  </div>
+                  </div>
+
+                  <div class="form-group">
+                    <h3> Question-10 </h3>
+                    <h4> You feel more energetic after spending time with a group of people.</h4>
+                  <div class="dropdown">
+                      <select id="dropDownList9" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select an Option<span></span>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Pass</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                      </select>
+                  </div>
+                  </div>
+                  <div class="form-group">
+                    
+                  <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+                  <button type="clear" id="clear" class="btn btn-default">Clear</button>
+                
+                  </div>
+
+                </form>
+              </div>
+           
+          </div>
+        </div>
+      </div>
+
+  <footer class="footer text-center">
+    <div class="container-fluid">
+      <p>
+        <a href="/api/friends"> API Friends List </a>
+        |
+        <a href="">GITHUB Repo </a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+
+    // In this code below we create one more Front-end JavaScript which "POSTS" our form data to our express server.
+    // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+    // Our api recognizes the route (/api/friends)... and then runs the associated code (found in api-routes.js).
+    // In this case the associated code "saves" the data to the friends.js file.
+    var friendsDataArray = [];
+
+
+    $("#submit").on("click", function(event) {
+      event.preventDefault();
+
+      for (i = 0; i < 10; i++) {
+          var elementName = "dropDownList" + i.toString();
+          var e = document.getElementById(elementName);
+          friendsDataArray[i] = e.options[e.selectedIndex].value;
+      }
+          console.log(friendsDataArray);
+
+    });
+
+
+//      runDropDownSelect();
+
+      // Here we grab the form elements
+      //var newReservation = {
+        //friendName: $("#name").val().trim(),
+        //phoneNumber: $("#phone-no").val().trim(),
+        //friendPicture: $("#picture").val().trim(),
+        //friendEmail: $("#email").val().trim(),
+        //friendID: $("#unique-id").val().trim()
+      //};
+
+  //    console.log(newFriend);
+
+    //    var userSelection = dropDownSelectedOption;
+        //var dropDownSelection = dropDownList.Option
+
+//        function runDropDownSelect() {
+          // Run this selectCaret function to get the values of dropdwon selected values by the user.
+//            if (userSelection === dropDownList.option)  {
+//                selectedOptionTextValue();      // Get Dropdownselect reports.
+//              } 
+//              else  {
+//                alert("Please, select answers to finish the survey!!");
+ //             }
+ //         }
+          //specifying the variables,
+       
+
+ //       function GetSelectedTextValue(dropDownList) {
+ //           var selectedText = dropDownList[i].option[dropDownList.selectedIndex].innerHTML;
+ //           var selectedValue = dropDownList[i].value;
+
+//            for (var i = 0; i < dropDownList.length; i++) {
+//              var selectedIndex = userSelectedOption;
+ //             var option = dropDownList[i].Index;              
+ //             var dropDownSelectedOption = dropDownList[i];
+ //             console.log("dropDownList[i]");
+
+//            }
+            //var dropDownListReports = document.getElementById("dropDownList");
+//                var score = dropdown.options[dropdown.selectedIndex].value;
+          //var ddlReport = document.getElementById("<%=DropDownListReports.UniqueID%>");
+         // alert('Selected Value is : ' + $('[id*=DropDownListReports]').val());
+
+  //        alert('Selected Value is : ' + selectedValue);
+ //       }
+ //         // Run a function to get all the user-selected answers for questions,
+ //       function surveyScoresValues(caret) {
+          // Loop through and display each of the questions' answers, into an arrey,
+ //         for (var i = 0; i < caret.length; i++) {
+
+//            var surveyScoresValues = document.getElementById("caret[i]" + toString(i)).val().trim();
+//            friendsDataArray[i] = surveyScoresValues;
+//        }
+//        }
+
+ 
+
+      // This line is the magic. It"s very similar to the standard ajax function we used.
+      // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+      // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+      // depending on if a friend is on the friendlist or not.
+
+//      $.post("/api/friends", newFriendship,
+//        function(data) {
+
+          // If the name is accepted... tell user they are welcome to the e-friends.
+//          if (data) {
+//            alert("Hey there! Welcome to the e-friends!");
+//          }
+
+          // If a name is unavailable... tell user they should try again with a different name.
+//          else {
+//            alert("Sorry! This name is already taken! Try a different one!");
+//          }
+
+          // Clear the form when submitting
+//          $("#name").val("");
+//          $("#phone-no").val("");
+//          $("#picture").val("");
+//          $("#email").val("");
+//          $("#unique-id").val("");
+
+//        });
+
+//     });
+
+</script>
+
