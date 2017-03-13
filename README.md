@@ -1,8 +1,8 @@
 # FriendsFinder An Express Server App For Dating/Friendship
 
--FriendsFinder is a compatibility-based application -- basically a dating app which runs on the express server. 
--This full-stack site will take in results from users' surveys, then compare their answers with those from other users. 
--The app will then display the name and picture of the user with the best overall match.
+FriendsFinder is a compatibility-based application -- basically a dating app which runs on the express server. 
+This full-stack site will take in results from users' surveys, then compare their answers with those from other users. 
+The app will then display the name and picture of the user with the best overall match.
 
 [![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)
 
