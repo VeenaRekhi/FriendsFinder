@@ -41,6 +41,14 @@ $ npm install express
   * Visit the [Wiki](https://github.com/expressjs/express/wiki)
   * [Google Group](https://groups.google.com/group/express-js)
   
+## PROJECT SOURCE can be downloaded from http://github.com
+[GitHub](https://github.com/VeenaRekhi/FriendsFinder.git)
+
+## AUTHOR -- Veena Rekhi  
+
+## LICENSE -- READ LICENSE 
+
+  
 ## Application Structure
 
 - `server.js` - The entry point to our application. This file defines our express server and connects it to the web. It also requires the routes and models we'll be using in the application.
